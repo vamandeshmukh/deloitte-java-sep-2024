@@ -12,15 +12,23 @@ public class StringDemo {
 //		System.out.println(str);		
 //		System.out.println(System.identityHashCode(str));
 //		
-//		String str2 = new String("ghi");
-//		System.out.println(str2);
+//		StringBuilder sb = new StringBuilder("abc");
+//		System.out.println(sb);
+//		System.out.println(System.identityHashCode(sb));
+//		
+//		sb.append("def");
+//		System.out.println(sb);
+//		System.out.println(System.identityHashCode(sb));
+		
+		String str = "Abc";
+		
+		String str2 = "ABC";
+		
+		System.out.println(str.equals(str2));
+		System.out.println(str.equalsIgnoreCase(str2));
+		
+		
 
-		StringBuilder sb = new StringBuilder("abc");
-		System.out.println(sb);
-		System.out.println(System.identityHashCode(sb));
-		sb.append("def");
-		System.out.println(sb);
-		System.out.println(System.identityHashCode(sb));
 
 	}
 
