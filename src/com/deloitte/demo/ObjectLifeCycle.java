@@ -37,7 +37,6 @@ class Person {
 	@Override
 	protected void finalize() throws Throwable {
 		System.out.println("object is being deleted.");
-
 	}
 
 }
