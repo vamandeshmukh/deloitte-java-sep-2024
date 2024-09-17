@@ -24,6 +24,8 @@ public class AbsDemo {
 
 		HdfcBank bank4 = new HdfcBank();
 		bank4.collectTax();
+		
+		bank4.m1();
 
 	}
 
