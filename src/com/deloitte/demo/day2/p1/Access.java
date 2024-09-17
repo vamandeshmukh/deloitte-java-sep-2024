@@ -13,6 +13,8 @@ public class Access {
 		System.out.println(Access.num2);
 		System.out.println(Access.num3);
 		System.out.println(Access.num4);
+		
+		// example of using protected 
 	}
 
 }
