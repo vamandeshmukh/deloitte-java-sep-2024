@@ -11,7 +11,7 @@ public class FunIntDemo {
 
 		Function<String, Integer> function = str -> str.length();
 
-		System.out.println("Length of 'abcd' : " + function.apply("abcd"));
+		System.out.println(function.apply("abcd"));
 
 		Consumer<String> consumer;
 
@@ -24,6 +24,8 @@ public class FunIntDemo {
 		Predicate<String> predicate;
 
 //		predicate.test(null);
+		
+//		m1();
 
 	}
 
