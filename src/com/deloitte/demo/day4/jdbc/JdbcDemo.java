@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JdbcDemo {
+	
+	// display id, name, salary of all the emps 
+	// handle exceptions 
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
